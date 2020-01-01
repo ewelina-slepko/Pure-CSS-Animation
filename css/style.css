@@ -89,43 +89,250 @@
 .space__moon {
   top: 80px;
   left: 580px;
-  width: 116px;
-  height: 116px;
+  width: 126px;
+  height: 126px;
   box-shadow: 0px 0px 30px 8px #d4d4d4;
   border-radius: 100px;
-  background: #e3e3e3;
-  animation: spacePlanet 30s linear infinite; }
+  background: #e3e3e3; }
   .space__moon .crater_1:before {
-    top: 42px;
-    left: 64px;
-    width: 72px;
-    height: 76px;
+    top: 48px;
+    left: -2px;
+    width: 60px;
+    height: 63px;
     border-radius: 100px;
     background: #cccccc;
     clip-path: ellipse(20% 20% at 38% 39%); }
   .space__moon .crater_1:after {
-    top: 50px;
-    left: 72px;
-    width: 40px;
-    height: 54px;
+    top: 55px;
+    left: -1px;
+    width: 44px;
+    height: 44px;
     border-radius: 100px;
     background: #e3e3e3;
     clip-path: ellipse(25% 25% at 49% 44%); }
   .space__moon .crater_2:before {
-    top: 83px;
+    top: 66px;
     left: 28px;
-    width: 72px;
-    height: 60px;
+    width: 70px;
+    height: 56px;
     border-radius: 100px;
     background: #cccccc;
     clip-path: ellipse(20% 20% at 38% 39%); }
   .space__moon .crater_2:after {
-    top: 90px;
-    left: 36px;
-    width: 48px;
-    height: 38px;
+    top: 68px;
+    left: 28px;
+    width: 68px;
+    height: 52px;
     border-radius: 100px;
-    background: #dbdbdb;
+    background: #e3e3e3;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_3:before {
+    top: 49px;
+    left: 64px;
+    width: 84px;
+    height: 81px;
+    border-radius: 100px;
+    background: #cccccc;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_3:after {
+    top: 56px;
+    left: 64px;
+    width: 65px;
+    height: 59px;
+    border-radius: 100px;
+    background: #e0e0e0;
+    clip-path: ellipse(25% 25% at 49% 44%); }
+  .space__moon .crater_4:before {
+    top: 30px;
+    left: 6px;
+    width: 40px;
+    height: 36px;
+    border-radius: 100px;
+    background: #cccccc;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_4:after {
+    top: 35px;
+    left: 8px;
+    width: 34px;
+    height: 28px;
+    border-radius: 100px;
+    background: #e0dede;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_5:before {
+    top: 18px;
+    left: 33px;
+    width: 34px;
+    height: 30px;
+    border-radius: 100px;
+    background: #cccccc;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_5:after {
+    top: 23px;
+    left: 35px;
+    width: 28px;
+    height: 22px;
+    border-radius: 100px;
+    background: #e3e3e3;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_6:before {
+    top: 18px;
+    left: 63px;
+    width: 24px;
+    height: 20px;
+    border-radius: 100px;
+    background: #cccccc;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_6:after {
+    top: 19px;
+    left: 64px;
+    width: 22px;
+    height: 20px;
+    border-radius: 100px;
+    background: #e3e3e3;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_7:before {
+    top: 32px;
+    left: 116px;
+    width: 22px;
+    height: 50px;
+    border-radius: 100px;
+    background: #d1d1d1;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_7:after {
+    top: 30px;
+    left: 113px;
+    width: 22px;
+    height: 60px;
+    border-radius: 10px;
+    background: #e3e3e3;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_8:before {
+    top: 46px;
+    left: -8px;
+    width: 22px;
+    height: 50px;
+    border-radius: 100px;
+    background: #d1d1d1;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_8:after {
+    top: 44px;
+    left: -4px;
+    width: 22px;
+    height: 60px;
+    border-radius: 10px;
+    background: #e3e3e3;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_9:before {
+    top: 48px;
+    left: 53px;
+    width: 24px;
+    height: 20px;
+    border-radius: 100px;
+    background: #cccccc;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_9:after {
+    top: 49px;
+    left: 53px;
+    width: 22px;
+    height: 20px;
+    border-radius: 100px;
+    background: #e3e3e3;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_10:before {
+    top: 104px;
+    left: 53px;
+    width: 34px;
+    height: 30px;
+    border-radius: 100px;
+    background: #cccccc;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_10:after {
+    top: 105px;
+    left: 55px;
+    width: 32px;
+    height: 30px;
+    border-radius: 100px;
+    background: #e3e3e3;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_11:before {
+    top: 95px;
+    left: 21px;
+    width: 24px;
+    height: 20px;
+    border-radius: 100px;
+    background: #cccccc;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_11:after {
+    top: 96px;
+    left: 22px;
+    width: 22px;
+    height: 20px;
+    border-radius: 100px;
+    background: #e3e3e3;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_11:before {
+    top: 38px;
+    left: 85px;
+    width: 24px;
+    height: 20px;
+    border-radius: 100px;
+    background: #cccccc;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_11:after {
+    top: 38px;
+    left: 86px;
+    width: 22px;
+    height: 20px;
+    border-radius: 100px;
+    background: #e3e3e3;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_12:before {
+    top: -9px;
+    left: 43px;
+    width: 60px;
+    height: 24px;
+    border-radius: 10px;
+    background: #d1d1d1;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_12:after {
+    top: -5px;
+    left: 40px;
+    width: 70px;
+    height: 22px;
+    border-radius: 100px;
+    background: #e3e3e3;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_13:before {
+    top: 2px;
+    left: 80px;
+    width: 60px;
+    height: 54px;
+    border-radius: 10px;
+    background: #d1d1d1;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_13:after {
+    top: -4px;
+    left: 74px;
+    width: 70px;
+    height: 86px;
+    border-radius: 100px;
+    background: #e3e3e3;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_14:before {
+    top: 90px;
+    left: 8px;
+    width: 60px;
+    height: 54px;
+    border-radius: 10px;
+    background: #d1d1d1;
+    clip-path: ellipse(20% 20% at 38% 39%); }
+  .space__moon .crater_14:after {
+    top: 70px;
+    left: 0px;
+    width: 100px;
+    height: 84px;
+    border-radius: 100px;
+    background: #e3e3e3;
     clip-path: ellipse(20% 20% at 38% 39%); }
 
 .space__star__1 {
@@ -187,7 +394,7 @@
   background: #e3d746; }
 
 .space__star__7 {
-  top: 180px;
+  top: 580px;
   left: 620px;
   width: 1px;
   height: 1px;
@@ -272,12 +479,12 @@
 .space__star__16 {
   top: 480px;
   left: 660px;
-  width: 3px;
-  height: 3px;
+  width: 1px;
+  height: 1px;
   box-shadow: 0px 0px 10px 2px #394959;
   border-radius: 100px;
   background: #e3d746;
-  animation: large_star 30s linear infinite; }
+  animation: small_star 30s linear infinite; }
 
 .space__star__17 {
   top: 380px;
