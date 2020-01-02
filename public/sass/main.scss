@@ -19,48 +19,69 @@
 }
 
 .space {
-    &__monster {
-        top: 180px;
-        left: 180px;
-        width: 24px;
-        height: 24px;
-        border-radius: 20px;
-        background: #1C596C;
+    &__little__boy__head {
+        top: 296px;
+        left: 294px;
+        width: 70px;
+        height: 70px;
+        border-radius: 30px;
+        background: #bfbfbf;
         animation: spaceMonster 30s linear infinite;
 
         &:after {
-            top: 10px;
-            left: 5px;
+            top: 24px;
+            left: 22px;
             width: 5px;
             height: 6px;
             border-radius: 50% 30% 40% 50%;
             background: #273449;
-            box-shadow: 10px 0 0 0 #273449;
+            box-shadow: 24px 0 0 0 #273449;
         }
+    }
 
-        div:before {
-            top: 6px;
-            left: 0px;
-            width: 14px;
-            height: 42px;
-            border-radius: 10px;
-            background: #1C596C;
+    &__little__boy__trunk {
+        top: 360px;
+        left: 300px;
+        width: 55px;
+        height: 64px;
+        border-radius: 18px;
+        background: #bfbfbf;
+        animation: spaceMonster 30s linear infinite;
+    }
+
+    &__little__boy__legs {
+        top: 360px;
+        left: 300px;
+        animation: spaceMonster 30s linear infinite;
+        
+        .legs:before {
+            top: 42px;
+            left: -9px;
+            width: 52px;
+            height: 72px;
+            margin-right: 10px;
+            border-radius: 50px;
+            background: #bfbfbf;
             transform-origin: 7px 7px;
             transform: rotate(0deg);
+            clip-path: polygon(70% 0, 46% 55%, 45% 100%, 16% 100%, 16% 51%, 29% 0);
             animation: spaceMonsterLeg 30s linear infinite;
         }
-        div:after {
-            top: 6px;
-            left: 10px;
-            width: 14px;
-            height: 37px;
-            border-radius: 10px;
-            background: #1C596C;
+        .legs:after {
+            top: 42px;
+            left: 16px;
+            width: 42px;
+            height: 77px;
+            margin-left: 10px;
+            border-radius: 50px;
+            background: #bfbfbf;
             transform-origin: 7px 7px;
             transform: rotate(0deg);
+            clip-path: polygon(57% 3%, 68% 55%, 45% 100%, 15% 100%, 26% 58%, 8% 0);
             animation: spaceMonsterLeg 30s linear infinite;
         }
     }
+ 
     
     &__planet{
        top: 180px;
