@@ -17,7 +17,7 @@
 
 .space__little__boy__head {
   top: 296px;
-  left: 286px;
+  left: 166px;
   width: 76px;
   height: 76px;
   border-radius: 100px;
@@ -44,7 +44,7 @@
   position: absolute;
   z-index: 2;
   top: 356px;
-  left: 334px;
+  left: 214px;
   width: 63px;
   height: 64px;
   border-radius: 0px 30px 100px 0px;
@@ -56,7 +56,7 @@
   position: absolute;
   z-index: 2;
   top: 356px;
-  left: 300px;
+  left: 180px;
   width: 63px;
   height: 64px;
   background: #bfbfbf;
@@ -66,7 +66,7 @@
 
 .space__little__boy__leg__right {
   top: 360px;
-  left: 300px;
+  left: 180px;
   animation: spaceMonster 30s linear infinite; }
   .space__little__boy__leg__right .leg:before {
     top: 42px;
@@ -100,7 +100,7 @@
 
 .space__little__boy__leg__left {
   top: 360px;
-  left: 300px;
+  left: 180px;
   animation: spaceMonster 30s linear infinite; }
   .space__little__boy__leg__left .leg:before {
     top: 6px;
@@ -134,7 +134,7 @@
 
 .space__little__boy__arms {
   top: 460px;
-  left: 300px;
+  left: 180px;
   animation: spaceMonster 30s linear infinite; }
   .space__little__boy__arms div:before {
     top: -90px;
@@ -155,7 +155,7 @@
 
 .space__little__boy__palm__right {
   top: 400px;
-  left: 290px;
+  left: 170px;
   animation: spaceMonster 30s linear infinite; }
   .space__little__boy__palm__right .glove:before {
     top: 12px;
@@ -184,7 +184,7 @@
 
 .space__little__boy__palm__left {
   top: 340px;
-  left: 390px;
+  left: 270px;
   animation: spaceMonster 30s linear infinite; }
   .space__little__boy__palm__left .glove:before {
     top: -3px;
@@ -216,7 +216,7 @@
   z-index: 1;
   animation: spaceMonster 30s linear infinite;
   top: 272px;
-  left: 322px; }
+  left: 202px; }
 
 .space__planet {
   top: 180px;
@@ -251,6 +251,33 @@
     border-radius: 100px;
     background: #EC7451;
     clip-path: polygon(21% 25%, 48% 18%, 92% 29%, 98% 40%, 76% 56%, 46% 59%, 23% 52%, 0 29%); }
+
+.space__planet__2 {
+  top: 300px;
+  left: 460px;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0px 0px 30px 8px #ffa87d;
+  border-radius: 100px;
+  background: #FF8549; }
+
+.space__planet__3 {
+  top: 120px;
+  left: 320px;
+  width: 56px;
+  height: 56px;
+  box-shadow: 0px 0px 30px 8px #394959;
+  border-radius: 100px;
+  background: #e36262; }
+  .space__planet__3 div:before {
+    top: -20px;
+    left: 0px;
+    width: 60px;
+    height: 100px;
+    border-radius: 100px;
+    background: #bf4b4b;
+    transform: rotate(110deg);
+    clip-path: ellipse(7% 46% at 51% 53%); }
 
 .space__moon {
   top: 80px;
@@ -502,7 +529,7 @@
     clip-path: ellipse(20% 20% at 38% 39%); }
 
 .space__star__1 {
-  top: 380px;
+  top: 280px;
   left: 260px;
   width: 1px;
   height: 1px;
@@ -653,8 +680,8 @@
   animation: small_star 30s linear infinite; }
 
 .space__star__17 {
-  top: 380px;
-  left: 260px;
+  top: 220px;
+  left: 560px;
   width: 1px;
   height: 1px;
   box-shadow: 0px 0px 10px 2px #394959;
