@@ -21,67 +21,173 @@
 .space {
     &__little__boy__head {
         top: 296px;
-        left: 294px;
-        width: 70px;
-        height: 70px;
-        border-radius: 30px;
+        left: 286px;
+        width: 76px;
+        height: 76px;
+        border-radius: 100px;
         background: #bfbfbf;
+        box-shadow: 0px 0px 30px 8px rgb(57, 73, 89);
         animation: spaceMonster 30s linear infinite;
 
-        &:after {
-            top: 24px;
-            left: 22px;
-            width: 5px;
-            height: 6px;
-            border-radius: 50% 30% 40% 50%;
-            background: #273449;
-            box-shadow: 24px 0 0 0 #273449;
+        .helmet:before{
+            top: 10px;
+            left: 5px;
+            width: 70px;
+            height: 55px;
+            background: #2e3b4a;
+            border-radius: 100px;
+        }
+
+        .helmet:after{
+            top: 10px;
+            left: 50px;
+            width: 10px;
+            height: 14px;
+            background: #ffffff;
+            clip-path: ellipse(12% 44% at 50% 52%);
+            transform: rotate(-70deg);
         }
     }
 
     &__little__boy__trunk {
-        top: 360px;
-        left: 300px;
-        width: 55px;
+        top: 356px;
+        left: 334px;
+        width: 63px;
         height: 64px;
-        border-radius: 18px;
+        border-radius: 0px 30px 100px 0px;
         background: #bfbfbf;
+        clip-path: polygon(0 0, 54% 0, 100% 100%, 43% 100%);
         animation: spaceMonster 30s linear infinite;
     }
 
-    &__little__boy__legs {
+    &__little__boy__trunk__shadow {
+            top: 356px;
+            left: 300px;
+            width: 63px;
+            height: 64px;
+            background:  #bfbfbf;
+            border-radius: 34px 0px 0px 0px;
+            clip-path: polygon(0 0, 54% 0, 100% 100%, 43% 100%);
+            animation: spaceMonster 30s linear infinite;
+    }
+
+    &__little__boy__leg__right {
         top: 360px;
         left: 300px;
         animation: spaceMonster 30s linear infinite;
         
-        .legs:before {
+        .leg:before {
             top: 42px;
-            left: -9px;
-            width: 52px;
-            height: 72px;
+            left: 30px;
+            width: 62px;
+            height: 62px;
             margin-right: 10px;
             border-radius: 50px;
             background: #bfbfbf;
             transform-origin: 7px 7px;
             transform: rotate(0deg);
-            clip-path: polygon(70% 0, 46% 55%, 45% 100%, 16% 100%, 16% 51%, 29% 0);
+            clip-path: polygon(36% 0, 71% 31%, 100% 76%, 77% 93%, 48% 50%, 3% 23%);
             animation: spaceMonsterLeg 30s linear infinite;
         }
-        .legs:after {
-            top: 42px;
-            left: 16px;
-            width: 42px;
+    }
+
+    &__little__boy__leg__left {
+        top: 360px;
+        left: 300px;
+        animation: spaceMonster 30s linear infinite;
+
+        .leg:before {
+            top: 6px;
+            left: 56px;
+            width: 52px;
             height: 77px;
             margin-left: 10px;
             border-radius: 50px;
             background: #bfbfbf;
             transform-origin: 7px 7px;
             transform: rotate(0deg);
-            clip-path: polygon(57% 3%, 68% 55%, 45% 100%, 15% 100%, 26% 58%, 8% 0);
+            clip-path: polygon(11% 18%, 69% 33%, 100% 68%, 96% 87%, 51% 54%, 0 50%);
             animation: spaceMonsterLeg 30s linear infinite;
         }
     }
- 
+
+    &__little__boy__arms {
+        top: 460px;
+        left: 300px;
+        animation: spaceMonster 30s linear infinite;
+
+        div:before {
+            top: -90px;
+            left: -14px;
+            width: 72px;
+            height: 54px;
+            background: #bfbfbf;
+            clip-path: polygon(51% 12%, 40% 60%, 37% 100%, 20% 99%, 17% 54%, 28% 3%);
+            transform-origin: 7px 7px;
+            transform: rotate(0deg);
+        }
+
+        div:after {
+            top: -133px;
+            left: 57px;
+            width: 62px;
+            height: 90px;
+            background: #bfbfbf;
+            clip-path: polygon(0 33%, 41% 31%, 83% 17%, 92% 28%, 49% 50%, 0 53%);
+        }
+    }
+
+    &__little__boy__palm__right {
+        top: 400px;
+        left: 290px;
+        animation: spaceMonster 30s linear infinite;
+
+        div:before{
+            top: 12px;
+            left: 10px;
+            width: 16px;
+            height: 22px;
+            background: #92cdf0;
+            border-radius: 100px;
+            transform: rotate(-10deg);
+        }
+
+        div:after{
+            top: 12px;
+            left: 23px;
+            width: 4px;
+            height: 8px;
+            background: #92cdf0;
+            border-radius: 100px;
+            transform: rotate(-60deg);
+        }
+    }
+
+    &__little__boy__palm__left {
+        top: 340px;
+        left: 390px;
+        animation: spaceMonster 30s linear infinite;
+
+        div:before{
+            top: -3px;
+            left: 12px;
+            width: 16px;
+            height: 22px;
+            background: #92cdf0;
+            border-radius: 100px;
+            transform: rotate(-120deg);
+        }
+
+        div:after{
+            top: -3px;
+            left: 12px;
+            width: 4px;
+            height: 8px;
+            background: #92cdf0;
+            border-radius: 100px;
+            transform: rotate(-170deg);
+        }
+    }
     
     &__planet{
        top: 180px;
@@ -102,6 +208,7 @@
         background: #EC7451;
         clip-path: polygon(19% 13%, 43% 8%, 68% 12%, 82% 15%, 53% 34%, 21% 36%, 0 46%, 3% 24%);
     }
+
     .upper_shades:after {
         top: 26px;
         left: 0px;
@@ -111,6 +218,7 @@
         background: #EC7451;
         clip-path: polygon(51% 3%, 68% 12%, 100% 13%, 83% 19%, 55% 17%, 41% 12%, 22% 16%, 11% 14%, 0 12%, 28% 9%);
     }
+
     .lower_shades:before{
         top: 30px;
         left: 2px;
@@ -119,9 +227,9 @@
         border-radius: 100px;
         background: #EC7451;
         clip-path: polygon(21% 25%, 48% 18%, 92% 29%, 98% 40%, 76% 56%, 46% 59%, 23% 52%, 0 29%);
-
     }
 }
+
 &__moon{
     top: 80px;
     left: 580px; 
@@ -130,7 +238,6 @@
     box-shadow: 0px 0px 30px 8px #d4d4d4;
     border-radius: 100px;
     background: #e3e3e3;
-    // animation: spacePlanet 30s linear infinite;
 
     .crater_1:before {
         top: 48px;
@@ -141,6 +248,7 @@
         background: #cccccc;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_1:after {
         top: 55px;
         left: -1px;
@@ -150,6 +258,7 @@
         background: #e3e3e3;
         clip-path: ellipse(25% 25% at 49% 44%);
     }
+
     .crater_2:before {
         top: 66px;
         left: 28px;
@@ -159,6 +268,7 @@
         background: #cccccc;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_2:after {
         top: 68px;
         left: 28px;
@@ -168,6 +278,7 @@
         background: #e3e3e3;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_3:before {
         top: 49px;
         left: 64px;
@@ -177,6 +288,7 @@
         background: #cccccc;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_3:after {
         top: 56px;
         left: 64px;
@@ -186,6 +298,7 @@
         background: #e0e0e0;
         clip-path: ellipse(25% 25% at 49% 44%);
     }
+
     .crater_4:before {
         top: 30px;
         left: 6px;
@@ -195,6 +308,7 @@
         background: #cccccc;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_4:after {
         top: 35px;
         left: 8px;
@@ -204,6 +318,7 @@
         background: #e0dede;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_5:before {
         top: 18px;
         left: 33px;
@@ -213,6 +328,7 @@
         background: #cccccc;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_5:after {
         top: 23px;
         left: 35px;
@@ -222,6 +338,7 @@
         background: #e3e3e3;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_6:before {
         top: 18px;
         left: 63px;
@@ -231,6 +348,7 @@
         background: #cccccc;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_6:after {
         top: 19px;
         left: 64px;
@@ -240,6 +358,7 @@
         background: #e3e3e3;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_7:before {
         top: 32px;
         left: 116px;
@@ -249,6 +368,7 @@
         background: #d1d1d1;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_7:after {
         top: 30px;
         left: 113px;
@@ -258,6 +378,7 @@
         background: #e3e3e3;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_8:before {
         top: 46px;
         left: -8px;
@@ -267,6 +388,7 @@
         background: #d1d1d1;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_8:after {
         top: 44px;
         left: -4px;
@@ -276,6 +398,7 @@
         background: #e3e3e3;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_9:before {
         top: 48px;
         left: 53px;
@@ -285,6 +408,7 @@
         background: #cccccc;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_9:after {
         top: 49px;
         left: 53px;
@@ -294,6 +418,7 @@
         background: #e3e3e3;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_10:before {
         top: 104px;
         left: 53px;
@@ -303,6 +428,7 @@
         background: #cccccc;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_10:after {
         top: 105px;
         left: 55px;
@@ -312,6 +438,7 @@
         background: #e3e3e3;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_11:before {
         top: 95px;
         left: 21px;
@@ -321,6 +448,7 @@
         background: #cccccc;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_11:after {
         top: 96px;
         left: 22px;
@@ -330,6 +458,7 @@
         background: #e3e3e3;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_11:before {
         top: 38px;
         left: 85px;
@@ -339,6 +468,7 @@
         background: #cccccc;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_11:after {
         top: 38px;
         left: 86px;
@@ -348,6 +478,7 @@
         background: #e3e3e3;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_12:before {
         top: -9px;
         left: 43px;
@@ -357,6 +488,7 @@
         background: #d1d1d1;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_12:after {
         top: -5px;
         left: 40px;
@@ -366,6 +498,7 @@
         background: #e3e3e3;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_13:before {
         top: 2px;
         left: 80px;
@@ -375,6 +508,7 @@
         background: #d1d1d1;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_13:after {
         top: -4px;
         left: 74px;
@@ -384,6 +518,7 @@
         background: #e3e3e3;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_14:before {
         top: 90px;
         left: 8px;
@@ -393,6 +528,7 @@
         background: #d1d1d1;
         clip-path: ellipse(20% 20% at 38% 39%);
     }
+
     .crater_14:after {
         top: 70px;
         left: 0px;
@@ -413,8 +549,8 @@
     border-radius: 100px;
     background: #e3d746;
     animation: small_star 30s linear infinite;
-
 }
+
 &__star__2{
     top: 100px;
     left: 360px; 
@@ -426,6 +562,7 @@
     animation: falling_star 30s linear infinite; 
 
 }
+
 &__star__3{
     top: 160px;
     left: 260px; 
@@ -437,6 +574,7 @@
     animation: large_star 30s linear infinite;
 
 }
+
 &__star__4{
     top: 480px;
     left: 460px; 
@@ -446,8 +584,8 @@
     border-radius: 100px;
     background: #e3d746;
     animation: small_star 30s linear infinite;
-
 }
+
 &__star__5{
     top: 530px;
     left: 160px; 
@@ -457,6 +595,7 @@
     border-radius: 100px;
     background: #e3d746;
 }
+
 &__star__6{
     top: 140px;
     left: 560px; 
@@ -466,6 +605,7 @@
     border-radius: 100px;
     background: #e3d746;
 }
+
 &__star__7{
     top: 580px;
     left: 620px; 
@@ -474,8 +614,8 @@
     box-shadow: 0px 0px 10px 2px #394959;
     border-radius: 100px;
     background: #e3d746;
-
 }
+
 &__star__8{
     top: 410px;
     left: 550px; 
@@ -485,6 +625,7 @@
     border-radius: 100px;
     background: #e3d746;
 }
+
 &__star__9{
     top: 310px;
     left: 360px; 
@@ -495,6 +636,7 @@
     background: #e3d746;
 
 }
+
 &__star__10{
     top: 280px;
     left: 440px; 
@@ -504,6 +646,7 @@
     border-radius: 100px;
     background: #e3d746;
 }
+
 &__star__11{
     top: 200px;
     left: 420px; 
@@ -514,6 +657,7 @@
     background: #e3d746;
 
 }
+
 &__star__12{
     top: 160px;
     left: 260px; 
@@ -525,6 +669,7 @@
     animation: medium_star 30s linear infinite;
 
 }
+
 &__star__13{
     top: 80px;
     left: 420px; 
@@ -534,6 +679,7 @@
     border-radius: 100px;
     background: #e3d746;
 }
+
 &__star__14{
     top: 80px;
     left: 590px; 
@@ -544,6 +690,7 @@
     background: #e3d746;
 
 }
+
 &__star__15{
     top: 280px;
     left: 640px; 
@@ -555,6 +702,7 @@
     animation: medium_star 30s linear infinite;
 
 }
+
 &__star__16{
     top: 480px;
     left: 660px; 
@@ -566,6 +714,7 @@
     animation: small_star 30s linear infinite;
 
 }
+
 &__star__17{
     top: 380px;
     left: 260px; 
@@ -575,6 +724,7 @@
     border-radius: 100px;
     background: #e3d746;
 }
+
 &__star__18{
     top: 480px;
     left: 70px; 
@@ -584,6 +734,7 @@
     border-radius: 100px;
     background: #e3d746;
 }
+
 &__star__19{
     top: 370px;
     left: 40px; 
@@ -593,6 +744,7 @@
     border-radius: 100px;
     background: #e3d746;
 }
+
 &__star__20{
     top: 300px;
     left: 140px; 
@@ -601,7 +753,6 @@
     box-shadow: 0px 0px 10px 2px #394959;
     border-radius: 100px;
     background: #e3d746;
-
 }
 }
 
@@ -678,6 +829,7 @@
     97.5% { transform: translate(0px, 0px); }
     100%  { transform: translate(0px, 0px); }
 }
+
 @keyframes spaceMonsterLeg {
     0.0%  { transform: rotate(-5deg); }
     1.5%  { transform: rotate(7deg); }
