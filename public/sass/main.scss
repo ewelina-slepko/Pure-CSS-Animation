@@ -50,6 +50,8 @@
     }
 
     &__little__boy__trunk {
+        position: absolute;
+        z-index: 2;
         top: 356px;
         left: 334px;
         width: 63px;
@@ -61,6 +63,8 @@
     }
 
     &__little__boy__trunk__shadow {
+            position: absolute;
+            z-index: 2;
             top: 356px;
             left: 300px;
             width: 63px;
@@ -158,6 +162,7 @@
         top: 460px;
         left: 300px;
         animation: spaceMonster 30s linear infinite;
+        
 
         div:before {
             top: -90px;
@@ -250,6 +255,14 @@
             border-radius: 100px;
             transform: rotate(-22deg);
         }
+    }
+
+    &__rope {
+        position: absolute;
+        z-index: 1;
+        animation: spaceMonster 30s linear infinite;
+        top: 272px;
+        left: 322px;
     }
     
     &__planet{
