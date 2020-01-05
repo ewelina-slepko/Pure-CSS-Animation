@@ -70,12 +70,29 @@
     width: 62px;
     height: 62px;
     margin-right: 10px;
-    border-radius: 50px;
+    border-radius: 100px 100px 100px 100px;
     background: #bfbfbf;
     transform-origin: 7px 7px;
     transform: rotate(0deg);
-    clip-path: polygon(36% 0, 71% 31%, 100% 76%, 77% 93%, 48% 50%, 3% 23%);
-    animation: spaceMonsterLeg 30s linear infinite; }
+    clip-path: polygon(36% 0, 71% 31%, 100% 76%, 77% 93%, 48% 50%, 3% 23%); }
+  .space__little__boy__leg__right .shoe:before {
+    top: 48px;
+    left: 92px;
+    width: 18px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 10px 2px 0px 0px;
+    transform-origin: 50px 50px;
+    transform: rotate(-40deg); }
+  .space__little__boy__leg__right .shoe:after {
+    top: 53px;
+    left: 104px;
+    width: 18px;
+    height: 9px;
+    background: #ffffff;
+    border-radius: 0px 100px 50px 0px;
+    transform-origin: 50px 50px;
+    transform: rotate(-40deg); }
 
 .space__little__boy__leg__left {
   top: 360px;
@@ -91,8 +108,25 @@
     background: #bfbfbf;
     transform-origin: 7px 7px;
     transform: rotate(0deg);
-    clip-path: polygon(11% 18%, 69% 33%, 100% 68%, 96% 87%, 51% 54%, 0 50%);
-    animation: spaceMonsterLeg 30s linear infinite; }
+    clip-path: polygon(11% 18%, 69% 33%, 100% 68%, 96% 87%, 51% 54%, 0 50%); }
+  .space__little__boy__leg__left .shoe:before {
+    top: 16px;
+    left: 124px;
+    width: 14px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 10px 2px 0px 2px;
+    transform-origin: 50px 50px;
+    transform: rotate(-40deg); }
+  .space__little__boy__leg__left .shoe:after {
+    top: 21px;
+    left: 136px;
+    width: 16px;
+    height: 9px;
+    background: #ffffff;
+    border-radius: 0px 100px 50px 0px;
+    transform-origin: 50px 50px;
+    transform: rotate(-40deg); }
 
 .space__little__boy__arms {
   top: 460px;
@@ -119,43 +153,59 @@
   top: 400px;
   left: 290px;
   animation: spaceMonster 30s linear infinite; }
-  .space__little__boy__palm__right div:before {
+  .space__little__boy__palm__right .glove:before {
     top: 12px;
     left: 10px;
     width: 16px;
     height: 22px;
-    background: #92cdf0;
+    background: #ffffff;
     border-radius: 100px;
     transform: rotate(-10deg); }
-  .space__little__boy__palm__right div:after {
+  .space__little__boy__palm__right .glove:after {
     top: 12px;
     left: 23px;
     width: 4px;
     height: 8px;
-    background: #92cdf0;
+    background: #ffffff;
     border-radius: 100px;
     transform: rotate(-60deg); }
+  .space__little__boy__palm__right .sleeve:before {
+    top: 5px;
+    left: 15px;
+    width: 4px;
+    height: 18px;
+    background: #40a5db;
+    border-radius: 100px;
+    transform: rotate(70deg); }
 
 .space__little__boy__palm__left {
   top: 340px;
   left: 390px;
   animation: spaceMonster 30s linear infinite; }
-  .space__little__boy__palm__left div:before {
+  .space__little__boy__palm__left .glove:before {
     top: -3px;
     left: 12px;
     width: 16px;
     height: 22px;
-    background: #92cdf0;
+    background: #ffffff;
     border-radius: 100px;
     transform: rotate(-120deg); }
-  .space__little__boy__palm__left div:after {
+  .space__little__boy__palm__left .glove:after {
     top: -3px;
     left: 12px;
     width: 4px;
     height: 8px;
-    background: #92cdf0;
+    background: #ffffff;
     border-radius: 100px;
     transform: rotate(-170deg); }
+  .space__little__boy__palm__left .sleeve:before {
+    top: 5px;
+    left: 9px;
+    width: 4px;
+    height: 16px;
+    background: #40a5db;
+    border-radius: 100px;
+    transform: rotate(-22deg); }
 
 .space__planet {
   top: 180px;
@@ -768,7 +818,7 @@
   0.0% {
     transform: rotate(-5deg); }
   1.5% {
-    transform: rotate(7deg); }
+    transform: rotate(3deg); }
   3.0% {
     transform: rotate(1deg); }
   4.5% {

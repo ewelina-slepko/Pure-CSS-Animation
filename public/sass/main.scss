@@ -75,6 +75,7 @@
         top: 360px;
         left: 300px;
         animation: spaceMonster 30s linear infinite;
+    
         
         .leg:before {
             top: 42px;
@@ -82,12 +83,33 @@
             width: 62px;
             height: 62px;
             margin-right: 10px;
-            border-radius: 50px;
+            border-radius: 100px 100px 100px 100px;
             background: #bfbfbf;
             transform-origin: 7px 7px;
             transform: rotate(0deg);
             clip-path: polygon(36% 0, 71% 31%, 100% 76%, 77% 93%, 48% 50%, 3% 23%);
-            animation: spaceMonsterLeg 30s linear infinite;
+        }
+
+        .shoe:before {
+            top: 48px;
+            left: 92px;
+            width: 18px;
+            height: 20px;
+            background: #ffffff;
+            border-radius: 10px 2px 0px 0px;
+            transform-origin: 50px 50px;
+            transform: rotate(-40deg);
+        }
+
+        .shoe:after {
+            top: 53px;
+            left: 104px;
+            width: 18px;
+            height: 9px;
+            background: #ffffff;
+            border-radius: 0px 100px 50px 0px;
+            transform-origin: 50px 50px;
+            transform: rotate(-40deg);
         }
     }
 
@@ -107,7 +129,28 @@
             transform-origin: 7px 7px;
             transform: rotate(0deg);
             clip-path: polygon(11% 18%, 69% 33%, 100% 68%, 96% 87%, 51% 54%, 0 50%);
-            animation: spaceMonsterLeg 30s linear infinite;
+        }
+
+        .shoe:before {
+            top: 16px;
+            left: 124px;
+            width: 14px;
+            height: 20px;
+            background: #ffffff;
+            border-radius: 10px 2px 0px 2px;
+            transform-origin: 50px 50px;
+            transform: rotate(-40deg);
+        }
+
+        .shoe:after {
+            top: 21px;
+            left: 136px;
+            width: 16px;
+            height: 9px;
+            background: #ffffff;
+            border-radius: 0px 100px 50px 0px;
+            transform-origin: 50px 50px;
+            transform: rotate(-40deg);
         }
     }
 
@@ -142,24 +185,34 @@
         left: 290px;
         animation: spaceMonster 30s linear infinite;
 
-        div:before{
+        .glove:before{
             top: 12px;
             left: 10px;
             width: 16px;
             height: 22px;
-            background: #92cdf0;
+            background: #ffffff;
             border-radius: 100px;
             transform: rotate(-10deg);
         }
 
-        div:after{
+        .glove:after{
             top: 12px;
             left: 23px;
             width: 4px;
             height: 8px;
-            background: #92cdf0;
+            background: #ffffff;
             border-radius: 100px;
             transform: rotate(-60deg);
+        }
+
+        .sleeve:before {
+            top: 5px;
+            left: 15px;
+            width: 4px;
+            height: 18px;
+            background: #40a5db;
+            border-radius: 100px;
+            transform: rotate(70deg);
         }
     }
 
@@ -168,24 +221,34 @@
         left: 390px;
         animation: spaceMonster 30s linear infinite;
 
-        div:before{
+        .glove:before{
             top: -3px;
             left: 12px;
             width: 16px;
             height: 22px;
-            background: #92cdf0;
+            background: #ffffff;
             border-radius: 100px;
             transform: rotate(-120deg);
         }
 
-        div:after{
+        .glove:after{
             top: -3px;
             left: 12px;
             width: 4px;
             height: 8px;
-            background: #92cdf0;
+            background: #ffffff;
             border-radius: 100px;
             transform: rotate(-170deg);
+        }
+
+        .sleeve:before {
+            top: 5px;
+            left: 9px;
+            width: 4px;
+            height: 16px;
+            background: #40a5db;
+            border-radius: 100px;
+            transform: rotate(-22deg);
         }
     }
     
@@ -832,7 +895,7 @@
 
 @keyframes spaceMonsterLeg {
     0.0%  { transform: rotate(-5deg); }
-    1.5%  { transform: rotate(7deg); }
+    1.5%  { transform: rotate(3deg); }
     3.0%  { transform: rotate(1deg); }
     4.5%  { transform: rotate(-6deg); }
     6.0%  { transform: rotate(-6deg); }
