@@ -264,6 +264,152 @@
         top: 272px;
         left: 202px;
     }
+
+    &__ship__container{
+        animation: spaceMonster 30s linear infinite;
+
+    .head:before {
+        position: absolute;
+        z-index: 2;
+        top: 326px;
+        left: 606px;
+        width: 50px;
+        height: 50px;
+        background-color: #f03629;
+        border-radius: 100% 0% 31% 69% / 30% 30% 70% 70%;
+        transform: rotate(12deg);
+    }
+
+    .wings:before {
+        position: absolute;
+        z-index: 2;
+        top: 393px;
+        left: 576px;
+        width: 50px;
+        height: 50px;
+        background-color: #f03629;
+        clip-path: polygon(100% 0, 87% 50%, 25% 90%, 40% 65%, 54% 41%, 66% 15%);
+        transform: rotate(-2deg);
+    }
+
+    .wings:after {
+        position: absolute;
+        z-index: 2;
+        top: 324px;
+        left: 532px;
+        width: 50px;
+        height: 50px;
+        background-color: #f03629;
+        clip-path: polygon(100% 0, 87% 50%, 25% 90%, 40% 65%, 54% 41%, 66% 15%);
+        transform: scaleY(-1) rotate(59deg)
+    }
+
+    .window:before {
+        position: absolute;
+        z-index: 2;
+        top: 355px;
+        left: 566px;
+        width: 44px;
+        height: 44px;
+        background: #a0b7db;
+        border-radius: 100px;
+    }
+
+    .window:after {
+        position: absolute;
+        z-index: 2;
+        top: 356px;
+        left: 585px;
+        width: 8px;
+        height: 43px;
+        background: #a7c0e8;
+        border-radius: 30px;
+        transform: rotate(90deg);
+    }
+
+    .window__reflection:before {
+        position: absolute;
+        z-index: 2;
+        top: 346px;
+        left: 585px;
+        width: 8px;
+        height: 38px;
+        background: #a7c0e8;
+        border-radius: 30px 0px 0px 30px;
+        transform: rotate(90deg);
+    }
+
+    .window__reflection:after {
+        position: absolute;
+        z-index: 2;
+        top: 370px;
+        left: 586px;
+        width: 4px;
+        height: 37px;
+        background: #a7c0e8;
+        border-radius: 0px 30px 30px 0px;
+        transform: rotate(90deg);
+    }
+
+    .backside:before {
+        clip-path: polygon(17% 0, 75% 0%, 100% 50%, 75% 100%, 18% 100%);
+        position: absolute;
+        z-index: 2;
+        top: 394px;
+        left: 527px;
+        width: 12px;
+        height: 12px;
+        background: #a0b7db;
+        transform: rotate(150deg);
+    }
+
+    .backside:after {
+        position: absolute;
+        z-index: 2;
+        top: 407px;
+        left: 534px;
+        width: 12px;
+        height: 12px;
+        background: #a0b7db;
+        transform: rotate(150deg);
+        clip-path: polygon(17% 0, 75% 0%, 100% 50%, 75% 100%, 18% 100%);
+    }
+
+    .fire:before{
+        top: 416px;
+        left: 524px;
+        width: 8px;
+        height: 8px;
+        background: #ffa914;
+        border-radius: 64% 36% 100% 0% / 100% 37% 63% 0%;
+        box-shadow: 0px 0px 0px 5px #f0c375;
+        transform: rotate(18deg);
+    }
+
+    .fire:after{
+        top: 402px;
+        left: 516px;
+        width: 8px;
+        height: 8px;
+        background: #ffa914;
+        border-radius: 64% 36% 100% 0% / 100% 37% 63% 0%;
+        box-shadow: 0px 0px 0px 5px #f0c375;
+        transform: rotate(10deg);
+    }
+
+    }
+
+    &__ship {
+        position: absolute;
+        z-index: 1;
+        top: 105px;
+        left: 452px;
+        transform: scale(0.3) rotate(60deg);
+
+      
+    }
+
+
     
     &__planet{
        top: 180px;
