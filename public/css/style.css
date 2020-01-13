@@ -16,7 +16,7 @@
     position: absolute; }
 
 .space__little__boy__head {
-  top: 296px;
+  top: 366px;
   left: 166px;
   width: 76px;
   height: 76px;
@@ -43,7 +43,7 @@
 .space__little__boy__trunk {
   position: absolute;
   z-index: 2;
-  top: 356px;
+  top: 426px;
   left: 214px;
   width: 63px;
   height: 64px;
@@ -55,7 +55,7 @@
 .space__little__boy__trunk__shadow {
   position: absolute;
   z-index: 2;
-  top: 356px;
+  top: 426px;
   left: 180px;
   width: 63px;
   height: 64px;
@@ -65,7 +65,7 @@
   animation: spaceMonster 30s linear infinite; }
 
 .space__little__boy__leg__right {
-  top: 360px;
+  top: 430px;
   left: 180px;
   animation: spaceMonster 30s linear infinite; }
   .space__little__boy__leg__right .leg:before {
@@ -99,7 +99,7 @@
     transform: rotate(-40deg); }
 
 .space__little__boy__leg__left {
-  top: 360px;
+  top: 430px;
   left: 180px;
   animation: spaceMonster 30s linear infinite; }
   .space__little__boy__leg__left .leg:before {
@@ -133,7 +133,7 @@
     transform: rotate(-40deg); }
 
 .space__little__boy__arms {
-  top: 460px;
+  top: 530px;
   left: 180px;
   animation: spaceMonster 30s linear infinite; }
   .space__little__boy__arms div:before {
@@ -154,7 +154,7 @@
     clip-path: polygon(0 33%, 41% 31%, 83% 17%, 92% 28%, 49% 50%, 0 53%); }
 
 .space__little__boy__palm__right {
-  top: 400px;
+  top: 470px;
   left: 170px;
   animation: spaceMonster 30s linear infinite; }
   .space__little__boy__palm__right .glove:before {
@@ -183,7 +183,7 @@
     transform: rotate(70deg); }
 
 .space__little__boy__palm__left {
-  top: 340px;
+  top: 410px;
   left: 270px;
   animation: spaceMonster 30s linear infinite; }
   .space__little__boy__palm__left .glove:before {
@@ -211,11 +211,66 @@
     border-radius: 100px;
     transform: rotate(-22deg); }
 
+.space__little__boy__belly {
+  top: 430px;
+  left: 210px;
+  position: absolute;
+  z-index: 2;
+  animation: spaceMonster 30s linear infinite; }
+  .space__little__boy__belly .box:before {
+    top: 6px;
+    left: 7px;
+    width: 26px;
+    height: 32px;
+    background: #d9d9d9;
+    border-radius: 4px;
+    transform: rotate(-24deg); }
+  .space__little__boy__belly .box__interface:before {
+    top: 10px;
+    left: 8px;
+    width: 18px;
+    height: 12px;
+    background: #384a5c;
+    border-radius: 4px;
+    transform: rotate(-24deg); }
+  .space__little__boy__belly .buttons__1:before {
+    top: 24px;
+    left: 17px;
+    width: 14px;
+    height: 4px;
+    background: #a0b7db;
+    border-radius: 4px;
+    transform: rotate(-24deg); }
+  .space__little__boy__belly .buttons__1:after {
+    top: 29px;
+    left: 19px;
+    width: 14px;
+    height: 4px;
+    background: #a0b7db;
+    border-radius: 4px;
+    transform: rotate(-24deg); }
+  .space__little__boy__belly .buttons__2:before {
+    top: 28px;
+    left: 12px;
+    width: 5px;
+    height: 5px;
+    background: #a0b7db;
+    border-radius: 4px;
+    transform: rotate(-24deg); }
+  .space__little__boy__belly .buttons__2:after {
+    top: 33px;
+    left: 15px;
+    width: 4px;
+    height: 4px;
+    background: #a0b7db;
+    border-radius: 4px;
+    transform: rotate(-24deg); }
+
 .space__rope {
   position: absolute;
   z-index: 1;
   animation: spaceMonster 30s linear infinite;
-  top: 272px;
+  top: 342px;
   left: 202px; }
 
 .space__ship__container {
@@ -223,7 +278,7 @@
   .space__ship__container .head:before {
     position: absolute;
     z-index: 2;
-    top: 326px;
+    top: 396px;
     left: 606px;
     width: 50px;
     height: 50px;
@@ -233,7 +288,7 @@
   .space__ship__container .wings:before {
     position: absolute;
     z-index: 2;
-    top: 393px;
+    top: 463px;
     left: 576px;
     width: 50px;
     height: 50px;
@@ -243,7 +298,7 @@
   .space__ship__container .wings:after {
     position: absolute;
     z-index: 2;
-    top: 324px;
+    top: 394px;
     left: 532px;
     width: 50px;
     height: 50px;
@@ -253,7 +308,7 @@
   .space__ship__container .window:before {
     position: absolute;
     z-index: 2;
-    top: 355px;
+    top: 425px;
     left: 566px;
     width: 44px;
     height: 44px;
@@ -262,7 +317,7 @@
   .space__ship__container .window:after {
     position: absolute;
     z-index: 2;
-    top: 356px;
+    top: 426px;
     left: 585px;
     width: 8px;
     height: 43px;
@@ -272,7 +327,7 @@
   .space__ship__container .window__reflection:before {
     position: absolute;
     z-index: 2;
-    top: 346px;
+    top: 416px;
     left: 585px;
     width: 8px;
     height: 38px;
@@ -282,7 +337,7 @@
   .space__ship__container .window__reflection:after {
     position: absolute;
     z-index: 2;
-    top: 370px;
+    top: 440px;
     left: 586px;
     width: 4px;
     height: 37px;
@@ -293,7 +348,7 @@
     clip-path: polygon(17% 0, 75% 0%, 100% 50%, 75% 100%, 18% 100%);
     position: absolute;
     z-index: 2;
-    top: 394px;
+    top: 464px;
     left: 527px;
     width: 12px;
     height: 12px;
@@ -302,7 +357,7 @@
   .space__ship__container .backside:after {
     position: absolute;
     z-index: 2;
-    top: 407px;
+    top: 477px;
     left: 534px;
     width: 12px;
     height: 12px;
@@ -310,7 +365,7 @@
     transform: rotate(150deg);
     clip-path: polygon(17% 0, 75% 0%, 100% 50%, 75% 100%, 18% 100%); }
   .space__ship__container .fire:before {
-    top: 416px;
+    top: 486px;
     left: 524px;
     width: 8px;
     height: 8px;
@@ -319,7 +374,7 @@
     box-shadow: 0px 0px 0px 5px #f0c375;
     transform: rotate(18deg); }
   .space__ship__container .fire:after {
-    top: 402px;
+    top: 472px;
     left: 516px;
     width: 8px;
     height: 8px;
@@ -331,7 +386,7 @@
 .space__ship {
   position: absolute;
   z-index: 1;
-  top: 105px;
+  top: 175px;
   left: 452px;
   transform: scale(0.3) rotate(60deg); }
 
