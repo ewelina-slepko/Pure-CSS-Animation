@@ -180,13 +180,12 @@
             height: 54px;
             background: #bfbfbf;
             clip-path: polygon(51% 12%, 40% 60%, 37% 100%, 20% 99%, 17% 54%, 28% 3%);
-            transform-origin: 7px 7px;
             transform: rotate(0deg);
         }
 
         div:after {
             top: -133px;
-            left: 57px;
+            left: 61px;
             width: 62px;
             height: 90px;
             background: #bfbfbf;
@@ -240,33 +239,33 @@
         animation: boyAnimation 30s linear infinite;
 
         .glove:before{
-            top: -3px;
+            top: -2px;
             left: 12px;
             width: 16px;
             height: 22px;
             background: #ffffff;
             border-radius: 100px;
-            transform: rotate(-120deg);
+            transform: rotate(-128deg);
         }
 
         .glove:after{
-            top: -3px;
-            left: 12px;
+            top: 2px;
+            left: 10px;
             width: 4px;
             height: 8px;
             background: #ffffff;
             border-radius: 100px;
-            transform: rotate(-170deg);
+            transform: rotate(-176deg);
         }
 
         .sleeve:before {
-            top: 5px;
+            top: 7px;
             left: 9px;
             width: 4px;
             height: 16px;
             background: #40a5db;
             border-radius: 100px;
-            transform: rotate(-22deg);
+            transform: rotate(-32deg);
         }
     }
 
@@ -465,8 +464,8 @@
         height: 8px;
         background: #ffa914;
         border-radius: 64% 36% 100% 0% / 100% 37% 63% 0%;
-        box-shadow: 0px 0px 0px 5px #f0c375;
         transform: rotate(18deg);
+        animation: fireAnimation 30s linear infinite;
     }
 
     .fire:after{
@@ -476,8 +475,8 @@
         height: 8px;
         background: #ffa914;
         border-radius: 64% 36% 100% 0% / 100% 37% 63% 0%;
-        box-shadow: 0px 0px 0px 5px #f0c375;
         transform: rotate(10deg);
+        animation: fireAnimation 30s linear infinite;
     }
     }
 
@@ -544,19 +543,20 @@
 &__planet__3 {
     top: 120px;
     left: 320px; 
-    width: 56px;
-    height: 56px;
+    width: 42px;
+    height: 42px;
     box-shadow: 0px 0px 30px 8px rgb(57, 73, 89);
     border-radius: 100px;
-    background: #e36262;
+    background: #e3b462;
+    background-image: linear-gradient(#e3b462, #FF8549, #FF8549);
 
     div:before{
-        top: -20px;
-        left: 0px;
+        top: -16px;
+        left: -7px;
         width: 60px;
-        height: 100px;
+        height: 76px;
         border-radius: 100px;
-        background: #bf4b4b;
+        background: #e36c32;
         transform: rotate(110deg);
         clip-path: ellipse(7% 46% at 51% 53%);
     }
@@ -1160,6 +1160,76 @@
     100%  { transform: translate(0px, 0px); }
 }
 
+@keyframes armAnimation {
+    0.0%  { transform: rotate(-0.3deg); }
+    1.5%  { transform: rotate(1deg); }
+    3.0%  { transform: rotate(1deg); }
+    4.5%  { transform: rotate(-0.5deg); }
+    6.0%  { transform: rotate(-1deg); }
+    7.5%  { transform: rotate(2deg); }
+    9.0%  { transform: rotate(1deg); }
+    10.5% { transform: rotate(-1deg); }
+    12.0% { transform: rotate(-1deg); }
+    13.5% { transform: rotate(0.4deg); }
+    15.0% { transform: rotate(3deg); }
+    16.5% { transform: rotate(-2deg); }
+    18.0% { transform: rotate(0.5deg); }
+    19.5% { transform: rotate(1deg); }
+    21.0% { transform: rotate(-5deg); }
+    22.6% { transform: rotate(-2deg); }
+    24.0% { transform: rotate(6deg); }
+    25.5% { transform: rotate(3deg); }
+    27.0% { transform: rotate(-1deg); }
+    28.5% { transform: rotate(-4deg); }
+    30.0% { transform: rotate(3deg); }
+    31.5% { transform: rotate(3deg); }
+    33.0% { transform: rotate(-4deg); }
+    34.5% { transform: rotate(3deg); }
+    36.0% { transform: rotate(3deg); }
+    37.5% { transform: rotate(-2deg); }
+    39.0% { transform: rotate(-11deg); }
+    40.5% { transform: rotate(0deg); }
+    42.0% { transform: rotate(4deg); }
+    43.5% { transform: rotate(0deg); }
+    45.0% { transform: rotate(-5deg); }
+    46.5% { transform: rotate(2deg); }
+    48.0% { transform: rotate(5deg); }
+    49.5% { transform: rotate(-2deg); }
+    51.0% { transform: rotate(-4deg); }
+    52.5% { transform: rotate(3deg); }
+    54.0% { transform: rotate(-5deg); }
+    55.5% { transform: rotate(1deg); }
+    57.0% { transform: rotate(4deg); }
+    58.5% { transform: rotate(-3deg); }
+    60.0% { transform: rotate(-2deg); }
+    61.5% { transform: rotate(4deg); }
+    63.0% { transform: rotate(2deg); }
+    64.5% { transform: rotate(-3deg); }
+    66.0% { transform: rotate(1deg); }
+    67.5% { transform: rotate(4deg); }
+    69.0% { transform: rotate(0deg); }
+    70.5% { transform: rotate(-3deg); }
+    72.0% { transform: rotate(1deg); }
+    73.5% { transform: rotate(3deg); }
+    75.0% { transform: rotate(-1deg); }
+    76.5% { transform: rotate(-4deg); }
+    78.0% { transform: rotate(-1deg); }
+    79.5% { transform: rotate(1deg); }
+    81.0% { transform: rotate(2deg); }
+    82.5% { transform: rotate(-6deg); }
+    84.0% { transform: rotate(2deg); }
+    85.5% { transform: rotate(3deg); }
+    87.0% { transform: rotate(-3deg); }
+    88.5% { transform: rotate(0deg); }
+    90.0% { transform: rotate(5deg); }
+    91.5% { transform: rotate(-1deg); }
+    93.0% { transform: rotate(-5deg); }
+    94.5% { transform: rotate(2deg); }
+    96.0% { transform: rotate(3deg); }
+    97.5% { transform: rotate(-1deg); }
+    100%  { transform: rotate(0deg); }
+}
+
 @keyframes legAnimation {
     0.0%  { transform: rotate(-3deg); }
     1.5%  { transform: rotate(3deg); }
@@ -1368,6 +1438,76 @@
     96.0% { transform: translate(0px, -1px) rotate(0.2deg) }
     97.5% { transform: translate(0px, 0px) rotate(0.2deg) }
     100%  { transform: translate(0px, 0px) rotate(0.1deg) }
+}
+
+@keyframes fireAnimation {
+    0.0%  { box-shadow: -4px 3px 3px 6px #facf7a; }
+    1.5%  { box-shadow: -4px 3px 3px 6px #facf7a }
+    3.0%  { box-shadow: -4px 3px 2px 6px #facf7a }
+    4.5%  { box-shadow: -4px 3px 2px 3px #facf7a }
+    6.0%  {box-shadow: -4px 3px 2px 5px #facf7a }
+    7.5%  { box-shadow: -4px 3px 3px 3px #facf7a }
+    9.0%  { box-shadow: -4px 3px 3px 6px #facf7a }
+    10.5% { box-shadow: -4px 3px 2px 6px #facf7a }
+    12.0% { box-shadow: -4px 3px 2px 5px #facf7a }
+    13.5% { box-shadow: -4px 3px 2px 6px #facf7a }
+    15.0% { box-shadow: -4px 3px 2px 4px #facf7a }
+    16.5% { box-shadow: -4px 3px 2px 4px #facf7a }
+    18.0% { box-shadow: -4px 3px 2px 6px #facf7a }
+    19.5% { box-shadow: -4px 3px 3px 5px #facf7a }
+    21.0% { box-shadow: -4px 3px 2px 4px #facf7a }
+    22.6% { box-shadow: -4px 3px 3px 4px #facf7a }
+    24.0% { box-shadow: -4px 3px 2px 4px #facf7a }
+    25.5% { box-shadow: -4px 3px 2px 5px #facf7a }
+    27.0% { box-shadow: -4px 3px 3px 6px #facf7a }
+    28.5% { box-shadow: -4px 3px 3px 4px #facf7a }
+    30.0% { box-shadow: -4px 3px 3px 2px #facf7a }
+    31.5% { box-shadow: -4px 3px 4px 3px #facf7a }
+    33.0% { box-shadow: -4px 3px 3px 6px #facf7a }
+    34.5% { box-shadow: -4px 3px 2px 6px #facf7a }
+    36.0% { box-shadow: -4px 3px 2px 6px #facf7a }
+    37.5% { box-shadow: -4px 3px 3px 4px #facf7a }
+    39.0% { box-shadow: -4px 3px 3px 4px #facf7a }
+    40.5% { box-shadow: -4px 3px 2px 3px #facf7a }
+    42.0% { box-shadow: -4px 3px 2px 6px #facf7a }
+    43.5% { box-shadow: -4px 3px 3px 4px #facf7a }
+    45.0% { box-shadow: -4px 3px 2px 4px #facf7a }
+    46.5% { box-shadow: -4px 3px 2px 5px #facf7a }
+    48.0% { box-shadow: -4px 3px 3px 6px #facf7a }
+    49.5% { box-shadow: -4px 3px 3px 4px #facf7a }
+    51.0% { box-shadow: -4px 3px 2px 6px #facf7a }
+    52.5% { box-shadow: -4px 3px 3px 5px #facf7a }
+    54.0% { box-shadow: -4px 3px 3px 4px #facf7a }
+    55.5% { box-shadow: -4px 3px 4px 6px #facf7a }
+    57.0% { box-shadow: -4px 3px 3px 4px #facf7a }
+    58.5% { box-shadow: -4px 3px 2px 4px #facf7a }
+    60.0% { box-shadow: -4px 3px 3px 6px #facf7a }
+    61.5% { box-shadow: -4px 3px 2px 4px #facf7a }
+    63.0% { box-shadow: -4px 3px 2px 7px #facf7a }
+    64.5% { box-shadow: -4px 3px 2px 6px #facf7a }
+    66.0% { box-shadow: -4px 3px 3px 4px #facf7a }
+    67.5% { box-shadow: -4px 3px 2px 6px #facf7a }
+    69.0% { box-shadow: -4px 3px 3px 6px #facf7a }
+    70.5% { box-shadow: -4px 3px 3px 6px #facf7a }
+    72.0% { box-shadow: -4px 3px 3px 3px #facf7a }
+    73.5% { box-shadow: -4px 3px 2px 6px #facf7a }
+    75.0% { box-shadow: -4px 3px 3px 6px #facf7a }
+    76.5% { box-shadow: -4px 3px 3px 7px #facf7a }
+    78.0% { box-shadow: -4px 3px 3px 5px #facf7a }
+    79.5% { box-shadow: -4px 3px 4px 4px #facf7a }
+    81.0% { box-shadow: -4px 3px 3px 2px #facf7a }
+    82.5% { box-shadow: -4px 3px 2px 4px #facf7a }
+    84.0% { box-shadow: -4px 3px 2px 6px #facf7a }
+    85.5% { box-shadow: -4px 3px 2px 4px #facf7a }
+    87.0% { box-shadow: -4px 3px 3px 7px #facf7a }
+    88.5% { box-shadow: -4px 3px 2px 4px #facf7a }
+    90.0% { box-shadow: -4px 3px 3px 6px #facf7a }
+    91.5% { box-shadow: -4px 3px 2px 7px #facf7a }
+    93.0% { box-shadow: -4px 3px 2px 5px #facf7a }
+    94.5% { box-shadow: -4px 3px 2px 4px #facf7a }
+    96.0% { box-shadow: -4px 3px 3px 3px #facf7a }
+    97.5% { box-shadow: -4px 3px 2px 6px #facf7a }
+    100%  { box-shadow: -4px 3px 2px 4px #facf7a }
 }
 
 @keyframes spacePlanet {
