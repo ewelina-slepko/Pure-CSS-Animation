@@ -19,6 +19,21 @@
 }
 
 .space {
+
+    &__cloud__fill {
+        width: 510px;
+        height: 580px;
+        left: -234px;
+        top: -300px;
+        background: #803B96;
+        transform: rotate(48deg);
+    }
+
+    &__cloud {
+        // top: -124px;
+        // left: -120px;  
+    }
+
     &__little__boy__head {
         top: 366px;
         left: 166px;

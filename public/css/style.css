@@ -15,6 +15,14 @@
     content: '';
     position: absolute; }
 
+.space__cloud__fill {
+  width: 510px;
+  height: 580px;
+  left: -234px;
+  top: -300px;
+  background: #803B96;
+  transform: rotate(48deg); }
+
 .space__little__boy__head {
   top: 366px;
   left: 166px;
