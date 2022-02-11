@@ -19,6 +19,6 @@
   "homepage": "https://github.com/ewelina-slepko/Pure-CSS-Animation#readme",
   "dependencies": {
     "live-server": "^1.2.1",
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   }
 }
